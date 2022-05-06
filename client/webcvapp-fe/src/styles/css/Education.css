@@ -1,0 +1,28 @@
+.main-education-details {
+    display:flex;
+    flex-direction:column;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.main-details {
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 20px rgb(0 0 0 / 52%);
+    width: 80%;
+    padding:15px;
+}
+
+.education-container{
+    color: Black;
+    text-shadow: 0;
+    box-shadow: 0 0 5px rgb(0 0 0 / 52%);
+    margin-bottom: 10px;
+}
+
+.skills {
+    width: fit-content;
+    padding: 20px;
+    display: inline-table;
+    justify-content:center;
+}
