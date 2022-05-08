@@ -568,3 +568,4 @@ D:\Nir\Nir\Projects\CVProject\server\WebAPIApp\WebAPIApp\obj\Debug\net6.0\refint
 D:\Nir\Nir\Projects\CVProject\server\WebAPIApp\WebAPIApp\obj\Debug\net6.0\WebAPIApp.pdb
 D:\Nir\Nir\Projects\CVProject\server\WebAPIApp\WebAPIApp\obj\Debug\net6.0\WebAPIApp.genruntimeconfig.cache
 D:\Nir\Nir\Projects\CVProject\server\WebAPIApp\WebAPIApp\obj\Debug\net6.0\ref\WebAPIApp.dll
+D:\Nir\Nir\Projects\CVProject\server\WebAPIApp\WebAPIApp\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

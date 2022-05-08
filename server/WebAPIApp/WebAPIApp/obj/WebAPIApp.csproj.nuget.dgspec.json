@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[3.18.1, )"
             },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -85,6 +89,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

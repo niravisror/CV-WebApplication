@@ -1,4 +1,5 @@
 
+using WebAPIApp.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,6 +38,21 @@ if (builder.Environment.IsDevelopment())
     app.UseSwaggerUI();
     //app.UseSwagger();
     //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoApi v1"));
+}
+else
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
+
+// Create the database if it doesn't exist
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<ContactdbContext>();
+    context.Database.EnsureCreated();
+    // DbInitializer.Initialize(context);
 }
 
 app.UseHttpsRedirection();

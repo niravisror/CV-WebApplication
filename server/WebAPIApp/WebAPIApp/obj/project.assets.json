@@ -117,6 +117,21 @@
       "MessagePackAnalyzer/2.1.152": {
         "type": "package"
       },
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.4"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "type": "package",
         "compile": {
@@ -3533,6 +3548,21 @@
         "messagepackanalyzer.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.4": {
+      "sha512": "mBOx8W+lrM5Sx09dczoEu4L2PB12pibpWFxyZ9x4FLHthqgJZJvFeEyQqqK1oWRcMKuXUMJOYKaKkBqeNbH0eA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
@@ -10264,12 +10294,14 @@
       "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection >= 3.3.0",
       "JavaScriptEngineSwitcher.V8 >= 3.18.1",
       "JavaScriptEngineSwitcher.V8.Native.win-x64 >= 3.18.1",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.3",
       "React.AspNet >= 5.2.12",
-      "Swashbuckle.AspNetCore >= 6.3.1"
+      "Swashbuckle.AspNetCore >= 6.3.1",
+      "System.Runtime.CompilerServices.Unsafe >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -10332,6 +10364,10 @@
             "target": "Package",
             "version": "[3.18.1, )"
           },
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[6.0.4, )"
@@ -10357,6 +10393,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.3.1, )"
+          },
+          "System.Runtime.CompilerServices.Unsafe": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [

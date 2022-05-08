@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2Z5cFPP6sNrFreeQ4I6+fea1yHO9rczcD8UMDXrrhYqRFEGBXKEVr86SIGMLFakoS8H2vcp+EwpM3Cl9f9znfw==",
+  "dgSpecHash": "sKhKWt9/QOhFuMK+JNNbuwY3W4mlEm2M0Q6dpWZjSNFokikQ+CmVvooEZn7jaYfBKvg1p26Km7xfDE+1PnW1tA==",
   "success": true,
   "projectFilePath": "D:\\Nir\\Nir\\Projects\\CVProject\\server\\WebAPIApp\\WebAPIApp\\WebAPIApp.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\NirAvisror\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\NirAvisror\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\NirAvisror\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\NirAvisror\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.4\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\NirAvisror\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\NirAvisror\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\NirAvisror\\.nuget\\packages\\microsoft.build\\17.0.0\\microsoft.build.17.0.0.nupkg.sha512",

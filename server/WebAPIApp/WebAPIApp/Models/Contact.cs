@@ -2,15 +2,24 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebAPIApp.Model
 {
     public partial class Contact
     {
         public int ID { get; set; }
+        [Required(ErrorMessage = "The first name is required")]
+        [Display(Name = "First Name"), StringLength(20)]
         public string FirstName { get; set; }
+        [Required(ErrorMessage = "The last name is required")]
+        [Display(Name = "Last Name"), StringLength(20)]
         public string LastName { get; set; }
+        [Required]
+        [EmailAddressAttribute]
         public string Email { get; set; }
+        [Required]
+        [PhoneAttribute]
         public string PhoneNumber { get; set; }
     }
 }

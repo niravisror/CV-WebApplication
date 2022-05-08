@@ -12,12 +12,14 @@
           "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": "3.3.0",
           "JavaScriptEngineSwitcher.V8": "3.18.1",
           "JavaScriptEngineSwitcher.V8.Native.win-x64": "3.18.1",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.4",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.3",
           "React.AspNet": "5.2.12",
-          "Swashbuckle.AspNetCore": "6.3.1"
+          "Swashbuckle.AspNetCore": "6.3.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "WebAPIApp.dll": {}
@@ -127,6 +129,17 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -2534,6 +2547,13 @@
       "sha512": "sha512-uJhZlGMkXDaFYsH8V9S6o1EyvsUqB9mpU4DVBXNr0DXZVzZMhuLP1IkLj5xK3EKlaAcvkFkZv3eSvuz360wb3Q==",
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mBOx8W+lrM5Sx09dczoEu4L2PB12pibpWFxyZ9x4FLHthqgJZJvFeEyQqqK1oWRcMKuXUMJOYKaKkBqeNbH0eA==",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.4",
+      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",
